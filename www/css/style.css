@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400; 1.500;1.600 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/21/16/07/sunset-7607500_640.jpg);           
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.card{
+  background-color: #ffffff80;
+  padding: 50px;
+  border-radius: 5%;
+  box-shadow: 3px 3px 1px 0px #00000090;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #253B39
+}
